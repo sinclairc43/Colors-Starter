@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html, body {
+html,
+body {
   margin: 0px;
 }
 
@@ -63,6 +64,10 @@ footer {
     background-color: #7fff00;
   }
 
+  .col-3 {
+    width: 33.33%;
+  }
+
   #column-1 {
     background-color: #00ffff;
   }
@@ -78,7 +83,7 @@ footer {
   footer {
     background-color: #7fff00;
   }
-  
+
 }
 
 
@@ -86,6 +91,10 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: #5f9ea0;
+  }
+
+  .col-3 {
+    width: 33.33%;
   }
 
   #column-1 {
@@ -103,5 +112,5 @@ footer {
   footer {
     background-color: #5f9ea0;
   }
-   
+
 }
